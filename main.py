@@ -26,12 +26,7 @@ def gfol():
   except:
     print('Bad proxy.')
     id = id
-  if f.json()['errors'][0]['message'] == "TooManyRequests":
-    print('Bad proxy.You are being rate-limited.')
-  if f.json()['errors'][0]['message'] == "InternalServerError":
-    print('Server error with roblox.May be becuase of TooManyRequests.')
-  if f.json['code'][0]['message'] == 'The user is banned from performing operation.':
-    print('Banned User.')
+  print(f.text)
 def thread_function(name):
     logging.info("Thread %s: starting", name)
     time.sleep(2)
