@@ -14,3 +14,6 @@ This is an W.I.P Follow Users  bot created by Faveish on Roblox!You can become l
  
  
  -The .ROBLOSECURITY of the player you want to mass follow with.
+# Change Logs 
+
+V1 added.
