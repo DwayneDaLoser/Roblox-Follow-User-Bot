@@ -13,7 +13,10 @@ This is an W.I.P Follow Users  bot created by Faveish on Roblox!You can become l
  -Proxies in proxies.txt
  
  
- -The .ROBLOSECURITY of the player you want to mass follow with.
+ -Put the .ROBLOSECURITY of the player you want to mass follow with in the 'cookie' file.
 # Change Logs 
 
 V1 added.
+# Version 1.2 
+Added credits
+Stared fixing JSON interpreter/error handling.
