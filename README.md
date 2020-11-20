@@ -1,5 +1,6 @@
 `If you really appreciate this project please donate:
- BITCOIN: 34rfqxDK9EEQkWZ6KSoxWFod1yrR5ZP4gB`
+
+BITCOIN: 34rfqxDK9EEQkWZ6KSoxWFod1yrR5ZP4gB`
 
 
 
@@ -31,3 +32,6 @@ Stared fixing `JSON` interpreter/error handling.
 # Version 1.5
 V1.5 added.
 Added faster following in spurts, instead of slower following over an period of time.
+# Version 1.8
+V1.8 added.
+Made the bot quicker, since it does not try to follow banned accounts and it stops ratelimiting.
