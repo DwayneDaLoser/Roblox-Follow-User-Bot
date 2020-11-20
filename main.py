@@ -12,9 +12,12 @@ cookie = open('cookie').read()
 ses.cookies['.ROBLOSECURITY'] = cookie
 r = ses.post('https://auth.roblox.com/')
 x = r.headers['x-csrf-token']
+r = ses.post('https://friends.roblox.com/v1/users/1945622030/follow')
 print(x)
 global id
-id = 11111
+id = 0
+r = ses.post('https://auth.roblox.com/')
+x = r.headers['x-csrf-token']
 def gfol():
   global id
   global f
@@ -44,7 +47,6 @@ if __name__ == "__main__":
     logging.info("Main    : wait for the thread to finish")
     # x.join()
     logging.info("Main    : all done")
-while True:
- time.sleep(1)
- x = threading.Thread(target=gfol, args=())
- x.start()
+while True: 
+ for _ in range(50):
+    threading.Thread(target=gfol).start()
