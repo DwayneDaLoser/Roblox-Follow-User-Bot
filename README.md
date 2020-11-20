@@ -1,4 +1,10 @@
-# NOTICE THIS IS VERY LAGGY, PLEASE RUN IN AN VM OR (repl)[https://repl.it]
+`If you really appreciate this project please donate:
+ BITCOIN: 34rfqxDK9EEQkWZ6KSoxWFod1yrR5ZP4gB`
+
+
+
+
+# NOTICE THIS IS VERY LAGGY, PLEASE RUN IN AN VM OR https://repl.it
 # Roblox Follow User Bot BECOME LIKE FOLLOW ALL
 This is an W.I.P Follow Users  bot created by Faveish on Roblox!You can become like FollowAll today! 
  # REQUIREMENTS #
