@@ -27,3 +27,7 @@ V1 added.
 # Version 1.2 
 Added credits
 Stared fixing `JSON` interpreter/error handling.
+
+# Version 1.5
+V1.5 added.
+Added faster following in spurts, instead of slower following over an period of time.
