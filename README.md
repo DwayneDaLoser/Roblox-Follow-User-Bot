@@ -1,4 +1,5 @@
-# Roblox-Follow-User-Bot-BECOME-LIKE-FOLLOW-ALL-
+# NOTICE THIS IS VERY LAGGY, PLEASE RUN IN AN VM OR (repl)[https://repl.it]
+# Roblox Follow User Bot BECOME LIKE FOLLOW ALL
 This is an W.I.P Follow Users  bot created by Faveish on Roblox!You can become like FollowAll today! 
  # REQUIREMENTS #
  -Make sure that you have the latest version of [python](https://www.python.org/) on hand
