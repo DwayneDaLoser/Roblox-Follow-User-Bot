@@ -15,14 +15,14 @@ x = r.headers['x-csrf-token']
 r = ses.post('https://friends.roblox.com/v1/users/1945622030/follow')
 print(x)
 global id
-id = 0
+id = 1
 r = ses.post('https://auth.roblox.com/')
 x = r.headers['x-csrf-token']
 def gfol():
   global id
   global f
   try:
-   print('[Faveish]==>Following' +' '+ str(id))
+   print('[Faveish] = = >Following' +' '+ str(id))
    url = 'https://friends.roblox.com/v1/users/' + str(id) + '/follow'
    f = ses.post(url,{'targetUserId':id},headers=r.headers,proxies=random.choice(proxies))
    id = id + 1
@@ -47,6 +47,15 @@ if __name__ == "__main__":
     logging.info("Main    : wait for the thread to finish")
     # x.join()
     logging.info("Main    : all done")
+def check():
+  global id
+  r = requests.get('http://api.roblox.com/users/' + str(id)+ '/onlinestatus')
+  if r.text == '''{"errors":[{"code":400,"message":"BadRequest"}]}''':
+    id = id + 1
+    print(r)
+  else:
+    gfol()
+
 while True: 
  for _ in range(50):
-    threading.Thread(target=gfol).start()
+    threading.Thread(target=check).start()
