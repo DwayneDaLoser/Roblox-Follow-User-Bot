@@ -22,8 +22,8 @@ def gfol():
   global id
   global f
   try:
-   print('[Faveish] = = >Following' +' '+ str(id))
-   url = 'https://friends.roblox.com/v1/users/' + str(id) + '/follow'
+   print(f'[Faveish] = = >Following {str(id)}')
+   url = f'https://friends.roblox.com/v1/users/{id}/follow'
    f = ses.post(url,{'targetUserId':id},headers=r.headers,proxies=random.choice(proxies))
    id = id + 1
   except:
